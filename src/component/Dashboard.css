@@ -1,0 +1,19 @@
+.dashboard-container {
+  width: calc(100% - 220px);
+}
+.data-sources-header {
+  padding: 25px;
+}
+.discover-pagination {
+  margin-bottom: 19px;
+}
+.data-sources-header h3 {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  font-size: 22px;
+  line-height: 18px;
+}
+
+.data-table {
+  padding: 0 25px;
+}

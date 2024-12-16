@@ -1,0 +1,42 @@
+.border-btn {
+  padding: 10px 35px;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 10px;
+  border: 1px solid #0000001a;
+}
+
+.addNewIcon {
+  margin-right: 8px;
+  display: inline-block;
+}
+.data-search .form-group {
+  border: 1px solid #00000033;
+  /* box-shadow: 0 5px 10px 0 #00000040; */
+  position: relative;
+  margin-left: 24px;
+  border-radius: 10px;
+  padding: 10px 0 10px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+.data-search .form-group .form-control {
+  border: 0px;
+  border-radius: 0;
+  background-color: #fff;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: calc(100% - 50px);
+}
+.data-search .form-group .form-control:focus {
+  box-shadow: none;
+}
+.data-search-btn {
+  padding: 0 18px 0 0;
+}

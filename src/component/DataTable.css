@@ -1,0 +1,54 @@
+.data-table-inner .table thead th {
+  background-color: #f8f8f8 !important;
+  color: #6a6a65;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 14px 16px;
+  border-bottom: 0;
+}
+.data-table-inner .statusbar {
+  padding: 6px;
+  border-radius: 50px;
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 600;
+  text-align: center;
+  width: max-content;
+  margin: 0 auto;
+}
+.data-table-inner .statusbar.connected {
+  background-color: #e5f5e4;
+  color: #3f8b35;
+}
+.data-table-inner .statusbar.disconnected {
+  background-color: #ffdad5;
+  color: #e61e00;
+}
+.data-table-inner .statusbar.inprogress {
+  background-color: #fffde9;
+  color: #ff8a00;
+}
+.data-table-inner .table > tbody > tr:nth-child(even) td {
+  background-color: #f8f8f8 !important;
+  border: 0 !important;
+}
+.data-table-inner .table > tbody > tr:nth-child(odd) td {
+  background-color: #fff !important;
+  border: 0 !important;
+}
+.data-table-inner .table tbody tr td {
+  color: #000000;
+  font-size: 14px;
+  padding: 25px 16px;
+  font-weight: 500;
+}
+.table-action-btns {
+  width: 15px;
+}
+.data-filter-btn {
+  background-color: #292929;
+  color: #fff;
+  border-radius: 4px;
+  padding: 12px 44px;
+}

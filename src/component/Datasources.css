@@ -1,0 +1,27 @@
+.uploadfile-btn{
+    background-color: #F7F7F7;
+    border:1px solid #0000001A;
+    border-radius: 4px;
+    width: 100%;
+}
+.uploadfile-btn:hover{
+    border-color: #0000004d;
+}
+.uploadfile-btn span{
+    display: inline-block;
+    margin-right: 20px;
+}
+.uploadfile-btn span img{
+    margin-right: 0;
+}
+.uploadfile-btn.btn-connectors{
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+.connectors-inner-wrapper{
+    margin: 10px 0 20px;
+}
+
+
+
