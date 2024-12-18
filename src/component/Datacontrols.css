@@ -6,8 +6,15 @@
   line-height: 18px;
   border-radius: 10px;
   border: 1px solid #0000001a;
+  font-family: "Open Sans", serif;
+  transition: all 0.3s ease-in-out;
 }
-
+.border-btn:hover {
+  /* background-color: #000;
+  color: #fff; */
+  border-color: #000;
+  /* filter: invert(33%) sepia(88%) saturate(500%) hue-rotate(180deg); */
+}
 .addNewIcon {
   margin-right: 8px;
   display: inline-block;
@@ -22,7 +29,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 300px;
+  width: 400px;
+  margin-bottom: 0;
 }
 .data-search .form-group .form-control {
   border: 0px;

@@ -1,0 +1,105 @@
+.forms-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh;
+}
+.form-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.form-fields {
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 24px;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 16px;
+  font-family: "Montserrat", serif;
+}
+.form-group .form-control {
+  width: 100%;
+  border: 1px solid #0000001a;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  color: #0079ac;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  padding: 9px 16px;
+}
+.form-group .form-control:focus {
+  box-shadow: none !important;
+  border-color: #000 !important;
+}
+.form-group .form-control::placeholder {
+  color: #5e5e5e;
+}
+input:-internal-autofill-selected {
+  background-color: #f7f7f7 !important;
+}
+.validation {
+  color: #e61e00;
+}
+.form-group textarea.form-control {
+  resize: none;
+  height: 150px;
+}
+.customecheckbox label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  color: #5e5e5e;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 14px;
+}
+.customecheckbox label::before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 3px solid #000;
+  border-radius: 4px;
+}
+.customecheckbox input[type="checkbox"]:checked + label::before {
+  background-color: #fff;
+}
+.customecheckbox input[type="checkbox"]:checked + label::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  background: #000;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 #000, 4px 0 0 #000, 4px -2px 0 #000, 4px -4px 0 #000,
+    4px -6px 0 #000, 4px -8px 0 #000;
+  transform: rotate(45deg);
+}
+.customecheckbox input[type="checkbox"] {
+  position: absolute !important;
+  opacity: 0 !important;
+}
+.roleslist ul {
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-top: 25px;
+}

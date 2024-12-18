@@ -5,6 +5,9 @@ import searchIcon from "../../public/searchIcon.svg";
 import filterIcon from "../../public/filterIcon.svg";
 
 const Datacontrols = () => {
+  function handleClick(){
+   console.log("handled clicked worked") ;
+  }
   return (
     <div className="data-controls-container d-flex justify-content-between">
       <div>
@@ -18,7 +21,7 @@ const Datacontrols = () => {
         </button>
       </div>
       <div className="d-flex justify-content-between">
-        <button className="border-btn">
+        <button className="border-btn" onClick={handleClick}>
           <img
             src={addNewIcon}
             alt="addNew icon"

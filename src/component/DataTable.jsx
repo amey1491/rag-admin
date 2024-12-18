@@ -30,8 +30,8 @@ const DataTable = () => {
             <td className="text-center">Database</td>
             <td className="text-center">
               <span className="statusbar connected">Connected</span>
-              <span className="statusbar disconnected">Disconnected</span>
-              <span className="statusbar inprogress">In Progress</span>
+              {/* <span className="statusbar disconnected">Disconnected</span> */}
+              {/* <span className="statusbar inprogress">In Progress</span> */}
             </td>
             <td className="text-center">05-12-2023, 14:45</td>
             <td className="text-center">
