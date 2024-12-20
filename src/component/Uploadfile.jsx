@@ -8,7 +8,7 @@ const Uploadfile = () => {
   return (
     <div className="uploadfile-wrapper">
       <div className="datasourcename">
-        <form action="">
+        <form>
           <div className="form-group">
             <label>
               Datasource Name:
@@ -17,7 +17,7 @@ const Uploadfile = () => {
           </div>
         </form>
       </div>
-      <form action="">
+      <form>
         <div className="form-group input-file">
           <input type="file" className="form-control" />
           <div className="d-flex flex-column justify-content-center align-items-center fileupload-box">

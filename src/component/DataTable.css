@@ -30,7 +30,7 @@
   color: #ff8a00;
 }
 .data-table-inner .table > tbody > tr:nth-child(even) td {
-  background-color: #f8f8f8 !important;
+  background-color: #f7f7f7 !important;
   border: 0 !important;
 }
 .data-table-inner .table > tbody > tr:nth-child(odd) td {

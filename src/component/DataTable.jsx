@@ -2,10 +2,14 @@ import React from "react";
 import "./DataTable.css";
 import deleteIcon from "../../public/deleteIcon.svg";
 import editIcon from "../../public/editIcon.svg";
+import DBTableSidebar from "./DBTableSidebar";
 
 const DataTable = () => {
   return (
-    <div className="data-table-inner">
+    <div className="data-table-inner d-flex vh-100">
+      <div>
+        <DBTableSidebar />
+      </div>
       <table className="table">
         <thead>
           <tr>
@@ -44,7 +48,7 @@ const DataTable = () => {
               </button>
             </td>
             <td className="text-center">
-            <button className="p-0">
+              <button className="p-0">
                 <img
                   src={deleteIcon}
                   alt="editIcon"
@@ -60,11 +64,3 @@ const DataTable = () => {
 };
 
 export default DataTable;
-
-
-
-
-
-
-
-

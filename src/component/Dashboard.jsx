@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import { React, useState } from "react";
 import "./Dashboard.css";
 import DataTable from "./DataTable";
 import Datasources from "./Datasources";
@@ -8,24 +8,24 @@ import Uploadfile from "./Uploadfile";
 import Connectors from "./Connectors";
 import NewModel from "./NewModel";
 
-
-
 const Dashboard = () => {
   return (
     <div className="dashboard-container container">
-      <div className="data-sources-header d-flex flex-column">
-        <div className="discover-pagination">
-          <h3>DATA SOURCES</h3>
-          {/* <Breadcrumbs/> */}
+      <div className="dashboard-inner-container">
+        <div className="data-sources-header d-flex flex-column">
+          <div className="discover-pagination">
+            <h3>Discover Agent</h3>
+            {/* <Breadcrumbs/> */}
+          </div>
+          <Datacontrols />
         </div>
-        <Datacontrols />
-      </div>
-      <div className="data-table">
-        <DataTable />
-        <Datasources />
-        <Uploadfile/>
-        <Connectors/>
-        <NewModel/>
+        <div className="data-table">
+          <DataTable />
+          {/* <Datasources /> */}
+          {/* <Uploadfile/> */}
+          {/* <Connectors /> */}
+          {/* <NewModel/> */}
+        </div>
       </div>
     </div>
   );

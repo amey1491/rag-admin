@@ -1,0 +1,16 @@
+.dbtable-sidebar{
+    background-color: red;
+    height: 100vh;
+}
+.dbtable-sidebar .dropdown {
+    margin-top: 0;
+}
+.dbtable-sidebar .dropdown .dropdown-toggle.btn.btn-primary{
+  margin-top: 0;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  background-color: transparent;
+  border: 0;
+}

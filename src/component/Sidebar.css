@@ -21,28 +21,27 @@
   border: solid #fff;
   border-width: 0 2px 2px 0;
   display: inline-block;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform: rotate(-45deg);
   position: absolute;
   content: "";
   top: 10px;
   right: 20px;
 }
 .show.dropdown .btn-primary:before {
-  -webkit-transform: rotate(225deg);
-  transform: rotate(225deg);
-  top: 16px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);  
 }
 .show.dropdown .btn.show,
 .show.dropdown .btn:first-child:active {
   background-color: transparent !important;
   /* background-color: #e0e0e01a !important; */
-  color: #33c2ff !important;
+  color: #EC2D02 !important;
   width: 100%;
   text-align: left;
 }
 .show.dropdown .btn.show::before {
-  border-color: #33c2ff !important ;
+  border-color: #EC2D02 !important ;
 }
 .dropdown {
   font-size: 14px;

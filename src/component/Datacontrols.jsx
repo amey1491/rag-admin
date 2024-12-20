@@ -9,8 +9,8 @@ const Datacontrols = () => {
    console.log("handled clicked worked") ;
   }
   return (
-    <div className="data-controls-container d-flex justify-content-between">
-      <div>
+    <div className="data-controls-container row">
+      <div className="col-sm-4">
         <button className="border-btn">
           <img
             src={filterIcon}
@@ -20,14 +20,14 @@ const Datacontrols = () => {
           Filters
         </button>
       </div>
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-end col-sm-8">
         <button className="border-btn" onClick={handleClick}>
           <img
             src={addNewIcon}
             alt="addNew icon"
             className="img-fluid addNewIcon"
           />
-          Add New
+          New Group
         </button>
         <div className="data-search">
           <form>

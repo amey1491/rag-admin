@@ -4,7 +4,7 @@ import "./NewModel.css";
 const NewModel = () => {
   return (
     <div className="newmodel-wrapper container">
-      <form action="" className="forms-wrapper">
+      <form className="forms-wrapper">
         <div className="form-fields">
           <div className="row">
             <div className="col-sm-12">
