@@ -1,16 +1,66 @@
-.dbtable-sidebar{
-    background-color: red;
-    height: 100vh;
+.dbtable-sidebar {
+  background-color: #f7f7f7;
+  height: 100vh;
+  border-radius: 4px;
+  padding: 20px 14px;
+  width: 200px;
+  margin-right: 20px;
 }
 .dbtable-sidebar .dropdown {
-    margin-top: 0;
-}
-.dbtable-sidebar .dropdown .dropdown-toggle.btn.btn-primary{
   margin-top: 0;
-  color: #000000;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 19px;
-  background-color: transparent;
-  border: 0;
+}
+.dbtable-sidebar .dropdown .dropdown-toggle.btn.btn-primary {
+  margin-top: 0 !important;
+  color: #000000 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 19px !important;
+  background-color: transparent !important;
+  border: 0 !important;
+  padding-left: 30px !important;
+}
+.dbtable-sidebar .dropdown-item,
+.dbtable-sidebar .dropdown-item-text {
+  color: #000000 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  font-weight: 500 !important;
+  padding-left: 0 !important;
+}
+.dbtable-sidebar .dropdown-item img,
+.dbtable-sidebar .dropdown-item-text img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.dbtable-sidebar .dropdown-item:hover,
+.dbtable-sidebar .dropdown-item-text:hover {
+  color: #ec2d02 !important;
+  background-color: transparent !important;
+}
+.dbtable-sidebar .dropdown .btn-primary:before {
+  border-color: #000 !important;
+  padding: 4px !important;
+  top: 12px !important;
+  right: 5px !important;
+}
+.dbtable-sidebar .show.dropdown .btn-primary:before {
+  top: 9px !important;
+  right: 5px !important;
+}
+.dbtable-sidebar .dropdown-item-btn {
+  position: relative;
+}
+.dbtable-sidebar .dropdown-item-btn::before {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../public/dbTableIcon.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 10px;
+  padding-right: 10px;
+  display: inline-block;
 }

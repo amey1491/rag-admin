@@ -6,7 +6,7 @@ import DBTableSidebar from "./DBTableSidebar";
 
 const DataTable = () => {
   return (
-    <div className="data-table-inner d-flex vh-100">
+    <div className="data-table-inner d-flex vh-100 table-responsive">
       <div>
         <DBTableSidebar />
       </div>

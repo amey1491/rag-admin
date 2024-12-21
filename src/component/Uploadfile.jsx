@@ -29,7 +29,7 @@ const Uploadfile = () => {
           </div>
         </div>
       </form>
-      <div className="uploadfile-table-container">
+      <div className="uploadfile-table-container table-responsive">
         <table className="table">
           <thead>
             <tr>
