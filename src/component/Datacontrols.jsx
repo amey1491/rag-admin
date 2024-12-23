@@ -10,7 +10,7 @@ const Datacontrols = () => {
   }
   return (
     <div className="data-controls-container row">
-      <div className="col-sm-4">
+      <div className="col-md-4">
         <button className="border-btn">
           <img
             src={filterIcon}
@@ -20,8 +20,8 @@ const Datacontrols = () => {
           Filters
         </button>
       </div>
-      <div className="col-sm-8">
-        <div className="d-flex justify-content-end ">
+      <div className="col-md-8">
+        <div className="d-flex justify-content-end">
           <button className="border-btn" onClick={handleClick}>
             <img
               src={addNewIcon}
