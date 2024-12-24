@@ -1,8 +1,8 @@
-.forms-wrapper {
+.connectors-wrapper .forms-wrapper {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .form-buttons {
   display: flex;
@@ -10,6 +10,7 @@
   justify-content: flex-end;
   width: 100%;
   padding-bottom: 40px;
+  margin-top: 20px;
 }
 .form-group {
   margin-bottom: 24px;
@@ -150,7 +151,7 @@
   content: "";
 }
 .Collapsible .Collapsible__trigger.is-open::before {
-  border: solid black;
+  border: solid #EC2D02;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -162,7 +163,7 @@
   content: "";
 }
 .Collapsible__contentInner {
-  margin-top: 10px;
+  margin: 10px 0 30px;
   background-color: #f8f8f8;
   border-radius: 4px;
   padding: 8px;
@@ -236,6 +237,9 @@
   min-width: 100px;
   text-align: center;
 }
+.innerTabName:hover{
+  border-color: #000 !important;
+}
 .innerTabName.react-tabs__tab--selected {
   border-color: #ec2d02;
   font-weight: 600;
@@ -247,7 +251,7 @@
   max-height: 250px;
   overflow: auto;
 }
-.uploadfile-btn{
+.connectors-wrapper .Collapsible__contentInner .uploadfile-btn{
   font-size: 100px;
   position: absolute;
   left: 0;

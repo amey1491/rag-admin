@@ -2,11 +2,12 @@ import { React, useState } from "react";
 import "./Dashboard.css";
 import DataTable from "./DataTable";
 import Datasources from "./Datasources";
-import Breadcrumbs from "./Breadcrums";
+import Topbreadcrumbs from "./Topbreadcrums";
 import Datacontrols from "./Datacontrols";
 import Uploadfile from "./Uploadfile";
 import Connectors from "./Connectors";
 import NewModel from "./NewModel";
+import Backarrowicon from "../../public/Backarrowicon.svg";
 
 const Dashboard = () => {
   return (
@@ -14,16 +15,19 @@ const Dashboard = () => {
       <div className="dashboard-inner-container">
         <div className="data-sources-header d-flex flex-column">
           <div className="discover-pagination">
-            <h3>Discover Agent</h3>
-            {/* <Breadcrumbs/> */}
+            <button className="border-btn">
+              <img src={Backarrowicon} alt="back arrow icon" className="backarrowIcon"/>Back
+              </button>
+            {/* <h3>Discover Agent</h3> */}
+            <Topbreadcrumbs/>
           </div>
           <Datacontrols />
         </div>
         <div className="data-table">
-          <DataTable />
-          {/* <Datasources /> */}
+          {/* <DataTable /> */}
+          <Datasources />
           {/* <Uploadfile/> */}
-          {/* <Connectors /> */}
+          <Connectors />
           {/* <NewModel/> */}
         </div>
       </div>
