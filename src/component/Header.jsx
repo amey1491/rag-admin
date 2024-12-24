@@ -8,7 +8,7 @@ const Header = () =>{
 <div className="header-container">
 <div className="admin-profile">
     <img src={turintonLogo} alt="logo" />
-    <p className="mb-0">Datasense</p>
+    <p className="mb-0">Insight AI</p>
 </div>
 </div>
     );

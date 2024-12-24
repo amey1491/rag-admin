@@ -179,6 +179,7 @@
   background-color: transparent !important;
   border: 0 !important;
   bottom: 0 !important;
+  font-family: "Open Sans";
 }
 .react-tabs__tab.react-tabs__tab--selected {
   border: 0px !important;
@@ -186,6 +187,7 @@
   background-color: transparent !important;
   border-radius: 0;
   background: transparent !important;
+  font-weight: 600 !important;
 }
 .react-tabs__tab.react-tabs__tab--selected::after,
 .react-tabs__tab:focus:after {

@@ -50,25 +50,6 @@ const Connectors = () => {
             <label>
               Roles<sup className="validation">*</sup>
             </label>
-            {/* <ul className="d-flex">
-            <li className="customecheckbox">
-              <input type="checkbox" id="finance"/>
-              <label for="finance">Finance</label>
-            </li>
-            <li className="customecheckbox">
-              <input type="checkbox" id="sales"/>
-              <label for="sales">Sales</label>
-            </li>
-            <li className="customecheckbox">
-              <input type="checkbox" id="hr"/>
-              <label for="hr">Human Resources</label>
-            </li>
-            <li className="customecheckbox">
-              <input type="checkbox" id="transport"/>
-              <label for="transport">Transport</label>
-            </li>
-          </ul> */}
-
             <Select
               defaultValue={[options[2], options[3]]}
               isMulti

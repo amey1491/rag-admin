@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar-container">
       <DropdownButton id="dropdown-item-button" title="Discover Agent">
-        <Dropdown.Item as="button">Groups</Dropdown.Item>
+        <Dropdown.Item as="button" className="active">Groups</Dropdown.Item>
         <Dropdown.ItemText>Data Sources</Dropdown.ItemText>
         <Dropdown.Item as="button">Menu Item 3</Dropdown.Item>
       </DropdownButton>

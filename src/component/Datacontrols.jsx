@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from 'react';
 import "./Datacontrols.css";
-import addNewIcon from "../../public/addNewIcon.svg";
+import ModalExample from "./GroupPopup";
 import searchIcon from "../../public/searchIcon.svg";
 import filterIcon from "../../public/filterIcon.svg";
+
 
 const Datacontrols = () => {
   function handleClick() {
@@ -22,7 +23,6 @@ const Datacontrols = () => {
         <div className="data-search">
             <form>
               <div className="form-group">
-                <input type="text" className="form-control" />
                 <button className="data-search-btn">
                   <img
                     src={searchIcon}
@@ -30,21 +30,22 @@ const Datacontrols = () => {
                     className="img-fluid"
                   />
                 </button>
+                <input type="search" className="form-control" />
               </div>
             </form>
           </div>
       </div>
       <div className="col-md-4">
         <div className="d-flex justify-content-end">
-          <button className="border-btn" onClick={handleClick}>
+          {/* <button className="border-btn" onClick={handleClick}>
             <img
               src={addNewIcon}
               alt="addNew icon"
               className="img-fluid addNewIcon"
             />
             New Group
-          </button>
-          
+          </button> */}
+          <ModalExample/>
         </div>
       </div>
     </div>

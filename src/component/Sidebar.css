@@ -82,3 +82,9 @@
 .dropdown-item-text:hover {
   background-color: #e0e0e01a !important;
 }
+.sidebar-container .show.dropdown .dropdown-item.active{
+  background-color: #6C6C6C1A;
+  border-radius: 10px;
+  padding: 8px 10px;
+  color: #ec2d02 !important;
+}
