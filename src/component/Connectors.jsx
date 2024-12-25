@@ -1,10 +1,8 @@
 import { React, useState } from "react";
 import "./Connectors.css";
 import Select from "react-select";
-import Collapsible from "react-collapsible";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import uploadFileICon from '../../public/uploadFileICon.svg';
+import DataAdvancedProperties from "./DataAdvancedProperties";
 
 const Connectors = () => {
   const options = [
@@ -59,7 +57,7 @@ const Connectors = () => {
               classNamePrefix="select multiselectdropdown"
             />
           </div>
-          <div className="col-sm-12">
+          {/* <div className="col-sm-12">
             <Collapsible
               trigger="Advanced Properties"
               className="adv-prop-btn btn-border"
@@ -209,15 +207,18 @@ const Connectors = () => {
                 </TabPanel>
               </Tabs>
             </Collapsible>
-          </div>
+          </div> */}
+          {/* <div className="col-sm-12">
+            <DataAdvancedProperties />
+          </div> */}
         </div>
-        <div className="form-buttons">
+        {/* <div className="form-buttons">
           <div className="d-flex justify-content-end">
             <button className="border-btn mx-3">Cancel</button>
             <button className="border-btn mx-3">Test Connection</button>
             <button className="border-btn">Connect Datasources</button>
           </div>
-        </div>
+        </div> */}
       </form>
     </div>
   );

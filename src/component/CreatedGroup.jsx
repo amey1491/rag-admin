@@ -4,6 +4,9 @@ import "react-tabs/style/react-tabs.css";
 import Select from "react-select";
 import deleteIcon from "../../public/deleteWhiteIcon.svg";
 import Datacontrols from "./Datacontrols";
+import Datasources from "./Datasources";
+import UploadFile from "./Uploadfile";
+import Connectors from "./Connectors";
 
 const CreatedGroup = () => {
   const options = [
@@ -69,6 +72,9 @@ const CreatedGroup = () => {
                 </thead>
               </table>
             </div>
+            <Datasources/>
+            <Connectors/>
+            <UploadFile/>
           </div>
         </TabPanel>
       </Tabs>

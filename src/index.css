@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
 
 :root {
   /* font-family: "Montserrat", serif; */
@@ -34,7 +33,7 @@ body {
 }
 input:-webkit-autofill {
   background-color: transparent !important;
-  color: #EC2D02 !important;
+  color: #ec2d02 !important;
   transition: background-color 5000s ease-in-out 0s !important; /* Prevent flashing */
 }
 
@@ -70,13 +69,13 @@ button:focus-visible {
   letter-spacing: 1px;
 }
 .border-btn:hover {
-  border-color: #000;  
+  border-color: #000;
 }
-.border-btn img.img-fluid{
+.border-btn img.img-fluid {
   width: 20px;
   height: 20px;
 }
-.react-tabs__tab-list{
+.react-tabs__tab-list {
   border-bottom: 0 !important;
 }
 .table thead th {
@@ -123,7 +122,136 @@ button:focus-visible {
   font-size: 14px;
   padding: 25px 16px;
   font-weight: 500;
+  vertical-align: middle;
 }
+.Collapsible__contentInner {
+  margin: 10px 0 30px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  padding: 8px;
+}
+.Collapsible__contentInner .react-tabs .react-tabs__tab-list {
+  border: 0px;
+}
+.Collapsible .Collapsible__trigger {
+  border: 1px solid #0000001a;
+  background-color: #f7f7f7;
+  color: #000;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  padding: 7px 30px 7px 20px;
+  border-radius: 4px;
+  position: relative;
+}
+.Collapsible .Collapsible__trigger::before {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  content: "";
+}
+.Collapsible .Collapsible__trigger.is-open::before {
+  border: solid #ec2d02;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  content: "";
+}
+
+.react-tabs__tab {
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #000000 !important;
+  padding: 8px 13px !important;
+  background-color: transparent !important;
+  border: 0 !important;
+  bottom: 0 !important;
+  font-family: "Open Sans";
+}
+.react-tabs__tab.react-tabs__tab--selected {
+  border: 0px !important;
+  position: relative;
+  background-color: transparent !important;
+  border-radius: 0;
+  background: transparent !important;
+  font-weight: 600 !important;
+}
+.react-tabs__tab.react-tabs__tab--selected::after,
+.react-tabs__tab:focus:after {
+  position: absolute !important;
+  content: "" !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 50% !important;
+  background-color: #ec2d02 !important;
+  display: block !important;
+  height: 2px !important;
+  border-radius: 4px 4px 0 0 !important;
+  margin: 0 auto !important;
+}
+.react-tabs__tab-panel {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 16px 8px;
+  min-height: 200px;
+}
+.react-tabs__tab-panel .form-group {
+  position: relative;
+}
+.dbschemeName {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+.innerTabList {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+.innerTabName {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  padding: 15px 8px;
+  background-color: #f7f7f7;
+  border: 1px solid #0000001a;
+  border-radius: 4px !important;
+  margin-right: 16px !important;
+  font-weight: 400;
+  min-width: 100px;
+  text-align: center;
+}
+.innerTabName:hover {
+  border-color: #000 !important;
+}
+.innerTabName.react-tabs__tab--selected {
+  border-color: #ec2d02;
+  font-weight: 600;
+}
+.tabinnerPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 250px;
+  overflow: auto;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

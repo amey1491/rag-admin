@@ -10,7 +10,8 @@ import NewModel from "./NewModel";
 import ModalExample from "./GroupPopup";
 import Backarrowicon from "../../public/Backarrowicon.svg";
 import CreatedGroup from "./CreatedGroup";
-
+import DataAdvancedProperties from "./DataAdvancedProperties";
+import FormSubmitBtnsGroup from "./FormSubmitBtnsGroup";
 
 const Dashboard = () => {
   return (
@@ -22,18 +23,21 @@ const Dashboard = () => {
               <img src={Backarrowicon} alt="back arrow icon" className="backarrowIcon"/>Back
               </button> */}
             {/* <h3>Discover Agent</h3> */}
-            <Topbreadcrumbs/>
+            <Topbreadcrumbs />
           </div>
           {/* <Datacontrols /> */}
-          <CreatedGroup/>
+          <CreatedGroup />
         </div>
         <div className="data-table">
           {/* <DataTable /> */}
           {/* <Datasources /> */}
           {/* <Uploadfile/> */}
-          <Connectors />
+          <div>
+            <Connectors />
+            <DataAdvancedProperties />
+            <FormSubmitBtnsGroup/>
+          </div>
           {/* <NewModel/> */}
-          
         </div>
       </div>
     </div>

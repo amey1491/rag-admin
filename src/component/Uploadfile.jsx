@@ -20,12 +20,11 @@ const Uploadfile = () => {
       <form>
         <div className="form-group input-file">
           <input type="file" className="form-control" />
-          <div className="d-flex flex-column justify-content-center align-items-center fileupload-box">
+          <div className="d-flex justify-content-center align-items-center fileupload-box">
             <span>
               <img src={cloudaddIcon} alt="addNew icon" className="img-fluid" />
             </span>
-            <p>Click to upload or drag and drop</p>
-            <span>supports text files, csv’s, spreadsheets and more</span>
+            <p className="px-4">Click to upload or drag and drop</p>            
           </div>
         </div>
       </form>
@@ -66,6 +65,11 @@ const Uploadfile = () => {
             </tr>
           </tbody>
         </table>
+        <div className="uploadsubmit-wrapper d-flex justify-content-end">
+          <button className="border-btn mx-3">Cancel</button>
+          <button className="border-btn mx-3">Retry All</button>
+          <button className="border-btn">Submit</button>
+        </div>
       </div>
     </div>
   );

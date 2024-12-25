@@ -5,7 +5,7 @@ import "./GroupPopup.css";
 
 Modal.setAppElement("#root"); // Set your app's root element
 
-const ModalExample = () => {
+const GroupPopup = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   return (
@@ -49,4 +49,4 @@ const ModalExample = () => {
   );
 };
 
-export default ModalExample;
+export default GroupPopup;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Datacontrols.css";
-import ModalExample from "./GroupPopup";
+import GroupPopup from "./GroupPopup";
 import searchIcon from "../../public/searchIcon.svg";
 import filterIcon from "../../public/filterIcon.svg";
 
@@ -45,7 +45,7 @@ const Datacontrols = () => {
             />
             New Group
           </button> */}
-          <ModalExample/>
+          <GroupPopup/>
         </div>
       </div>
     </div>
