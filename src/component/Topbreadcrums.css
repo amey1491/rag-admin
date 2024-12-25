@@ -1,20 +1,23 @@
-.breadcrums-wrapper{
-margin-left: 15px;
-font-family: "Open Sans" !important;
+.breadcrums-wrapper {
+  margin-left: 15px;
+  font-family: "Open Sans" !important;
 }
 .breadcrums-wrapper nav ol li a,
-.breadcrums-wrapper nav ol li{
- font-size: 18px;   
- font-weight: 400;
- font-family: "Open Sans";
- color: #000;
+.breadcrums-wrapper nav ol li {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  color: #000;
 }
-.breadcrums-wrapper nav ol li a:hover{
-    text-decoration: none;
+.breadcrums-wrapper nav ol li a:hover {
+  text-decoration: none;
 }
-.breadcrums-wrapper nav ol li:last-child p{
-    color: #EC2D02 !important;
-    font-size: 18px;   
-    font-weight: 400;
-    font-family: "Open Sans";
+.breadcrums-wrapper nav ol li:last-child p {
+  color: #ec2d02 !important;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+.breadcrums-wrapper .MuiBreadcrumbs-separator{
+    font-size: 16px;
 }

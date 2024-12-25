@@ -28,20 +28,33 @@ import airtableIcon from "../../public/airtableIcon.svg";
 import awsapiIcon from "../../public/awsapiIcon.svg";
 import awslambdaIcon from "../../public/awslambdaIcon.svg";
 import slackIcon from "../../public/slackIcon.svg";
+import searchIcon from "../../public/searchIcon.svg";
 
 const Datasources = () => {
   return (
-    <div className="connectors-wrapper">      
-        <button className="uploadfile-btn">
-          <span>
-            <img
-              src={uploadfileIcon}
-              alt="addNew icon"
-              className="img-fluid addNewIcon"
-            />
-          </span>
-          Upload File
-        </button>      
+    <div className="connectors-wrapper">
+      <div className="form-group">
+        <div className="data-search">
+          <form>
+            <div className="form-group mx-0">
+              <button className="data-search-btn">
+                <img src={searchIcon} alt="addNew icon" className="img-fluid" />
+              </button>
+              <input type="search" className="form-control" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <button className="uploadfile-btn">
+        <span>
+          <img
+            src={uploadfileIcon}
+            alt="addNew icon"
+            className="img-fluid addNewIcon"
+          />
+        </span>
+        Upload File
+      </button>
       <div className="connectors-inner-wrapper">
         <p className="fw-semibold">Connectors:</p>
         <div className="row mb-2">

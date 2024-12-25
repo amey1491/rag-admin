@@ -7,7 +7,10 @@ import Datacontrols from "./Datacontrols";
 import Uploadfile from "./Uploadfile";
 import Connectors from "./Connectors";
 import NewModel from "./NewModel";
+import ModalExample from "./GroupPopup";
 import Backarrowicon from "../../public/Backarrowicon.svg";
+import CreatedGroup from "./CreatedGroup";
+
 
 const Dashboard = () => {
   return (
@@ -15,20 +18,22 @@ const Dashboard = () => {
       <div className="dashboard-inner-container">
         <div className="data-sources-header d-flex flex-column">
           <div className="discover-pagination">
-            <button className="border-btn">
+            {/* <button className="border-btn">
               <img src={Backarrowicon} alt="back arrow icon" className="backarrowIcon"/>Back
-              </button>
+              </button> */}
             {/* <h3>Discover Agent</h3> */}
             <Topbreadcrumbs/>
           </div>
-          <Datacontrols />
+          {/* <Datacontrols /> */}
+          <CreatedGroup/>
         </div>
         <div className="data-table">
           {/* <DataTable /> */}
-          <Datasources />
+          {/* <Datasources /> */}
           {/* <Uploadfile/> */}
           <Connectors />
           {/* <NewModel/> */}
+          
         </div>
       </div>
     </div>
