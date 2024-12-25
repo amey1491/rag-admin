@@ -119,23 +119,3 @@
 .css-tj5bde-Svg {
   color: #000 !important;
 }
-
-.connectors-wrapper .Collapsible__contentInner .uploadfile-btn{
-  font-size: 100px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
-}
-.uploadFilebtn{
-  border: 1px solid #0000001A;
-  color:#5E5E5E;
-  background-color: #F7F7F7;
-  padding: 8px 20px;
-  border-radius: 4px;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.5px;
-  font-weight: 400;
-  width: 60%;
-}
